@@ -1,0 +1,19 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: flex-start;
+}
+.card {
+    background: white;
+    border: 1px solid black;
+    border-radius: .25rem;
+    padding: .5rem;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 250ms;
+}
+.card.show {
+    transform: translate(0);
+    opacity:1;
+}
