@@ -1,2 +1,2 @@
-vanilla JavaScript
+vanilla JavaScript <br/>
 IntersectionObserver()
